@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<table>
+		<form action="data2.php" method="Post" enctype="multipart/form-data">
+			<tr>
+			<td>Nama User</td>
+			<td>:</td>
+			<td> <input type="text" name="nama"><br></td>
+			</tr>
+
+			<tr>
+			<td>Nim</td>
+			<td>:</td>
+			<td><input type="password" name="nim"><br></td> 
+			</tr>
+
+			<tr>
+			<td>Fakultas</td>
+			<td>:</td>
+			<td><select name="fakultas">
+				<option value="FIT">FIT</option>
+				<option value="FIK">FIK</option>
+				<option value="FKB">FKB</option>
+				<option value="FEB">FEB</option>
+			</select><br></td> 
+			</tr>
+
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td> <input type="radio" name="jk" value="L">Laki-Laki
+				<input type="radio" name="jk" value="P">Perempuan
+				</td>
+			</tr>
+
+			<tr>
+				<td>Gambar</td>
+				<td>:</td>
+				<td colspan="2"><input type="file" name="File_gbr" id="dokumen"/><br>
+			</tr>
+
+			<tr>
+				<td><input type="submit" name="kirim"></td>
+			</tr>
+			
+
+
+
+		</form>
+	</table>
+</body>
+</html>
